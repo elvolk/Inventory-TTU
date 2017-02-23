@@ -15,6 +15,7 @@ namespace InventoryBook.Logic
         public int InventoryId { get; set; }
         public string Description { get; set; }
         public double InventoryStatus { get; set; }
+        public DateTime ProductValidUntil { get; set; }
 
         
        

@@ -8,7 +8,7 @@ namespace InventoryBook.Logic
 {
    public class InventoryStatus
     {
-        public enum InventoryStatus
+        public enum ProductStatus
         {
             PastStorage = 0,
             CurrentInventory = 1,
