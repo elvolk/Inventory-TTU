@@ -98,7 +98,6 @@
     <Compile Include="Logic\InventoryItem.cs" />
     <Compile Include="Logic\InventoryList.cs" />
     <Compile Include="Logic\InventoryStatus.cs" />
-    <Compile Include="Logic\ProductType.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

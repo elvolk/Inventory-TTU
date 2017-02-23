@@ -1,4 +1,10 @@
-﻿namespace InventoryBook.Logic
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InventoryBook.Logic
 {
     public class InventoryItem
     {
@@ -9,5 +15,10 @@
         public int InventoryId { get; set; }
         public string Description { get; set; }
         public double InventoryStatus { get; set; }
-    }
+
+        
+       
+
+     
+}
 }
