@@ -18,6 +18,7 @@ namespace InventoryBook.Logic
 
             foreach(var Product in ProductList)
             {
+
                 //Näidata seda kuskil
             }
         }
