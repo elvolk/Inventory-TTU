@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InventoryBook.Logic
+﻿namespace InventoryBook.Logic
 {
    public class InventoryStatus
     {
-        public enum InventoryStatus
+        public enum InventoryStatus1
         {
             PastStorage = 0,
             CurrentInventory = 1,
