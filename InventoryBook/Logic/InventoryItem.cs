@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InventoryBook.Logic
 {
@@ -16,10 +12,5 @@ namespace InventoryBook.Logic
         public string Description { get; set; }
         public double InventoryStatus { get; set; }
         public DateTime ProductValidUntil { get; set; }
-
-        
-       
-
-     
-}
+    }
 }
