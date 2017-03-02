@@ -89,12 +89,16 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="ClassDiagram1.cd" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Logic\BaseClass.cs" />
+    <Compile Include="Logic\BaseList.cs" />
+    <Compile Include="Logic\InventoryEntry.cs" />
     <Compile Include="Logic\InventoryItem.cs" />
     <Compile Include="Logic\InventoryList.cs" />
     <Compile Include="Logic\InventoryStatus.cs" />
