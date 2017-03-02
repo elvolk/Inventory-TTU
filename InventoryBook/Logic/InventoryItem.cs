@@ -21,7 +21,7 @@ namespace InventoryBook.Logic
         }
         public ProductType GetProductType()
         {
-            return ProductTypes.GetProductType(ProductTypeId);
+            return ProductType.GetProductType(ProductTypeId);
         }
     }
 }
