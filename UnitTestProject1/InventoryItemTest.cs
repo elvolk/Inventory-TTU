@@ -18,7 +18,5 @@ namespace InventoryBook.Tests
         {
             Assert.IsNotNull(i);
         }
-        
-
     }
 }

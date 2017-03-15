@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InventoryBook.Logic
 {
@@ -42,12 +39,12 @@ namespace InventoryBook.Logic
 
         public void Add(T item)
         {
-            throw new NotImplementedException();
+            list.Add(item);
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            list.Clear();
         }
 
         public bool Contains(T item)
@@ -77,7 +74,8 @@ namespace InventoryBook.Logic
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            list.Remove(item);
+            return true;
         }
 
         public void RemoveAt(int index)
